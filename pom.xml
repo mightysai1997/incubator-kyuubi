@@ -117,7 +117,7 @@
         <failsafe.verion>2.4.4</failsafe.verion>
         <fb303.version>0.9.3</fb303.version>
         <flink.version>1.15.2</flink.version>
-        <flink.module.scala.suffix></flink.module.scala.suffix>
+        <flink.module.scala.suffix/>
         <flink.archive.name>flink-${flink.version}-bin-scala_${scala.binary.version}.tgz</flink.archive.name>
         <flink.archive.mirror>${apache.archive.dist}/flink/flink-${flink.version}</flink.archive.mirror>
         <flink.archive.download.skip>false</flink.archive.download.skip>
@@ -162,7 +162,7 @@
         <scalatest.version>3.2.9</scalatest.version>
         <scalatestplus.version>3.2.9.0</scalatestplus.version>
         <scopt.version>4.1.0</scopt.version>
-        <slf4j.version>1.7.35</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
         <snakeyaml.version>1.31</snakeyaml.version>
         <!--
           DO NOT forget to change the following properties when change the minor version of Spark:
@@ -202,7 +202,7 @@
         <maven.plugin.surefire.version>3.0.0-M7</maven.plugin.surefire.version>
         <maven.plugin.scalatest.version>2.0.2</maven.plugin.scalatest.version>
         <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow,org.apache.kyuubi.tags.HudiTest</maven.plugin.scalatest.exclude.tags>
-        <maven.plugin.scalatest.include.tags></maven.plugin.scalatest.include.tags>
+        <maven.plugin.scalatest.include.tags/>
         <maven.plugin.spotless.version>2.24.1</maven.plugin.spotless.version>
         <maven.plugin.jacoco.version>0.8.7</maven.plugin.jacoco.version>
         <maven.plugin.jar.version>3.2.0</maven.plugin.jar.version>
@@ -1983,7 +1983,7 @@
                                 <version>1.7</version>
                                 <style>GOOGLE</style>
                             </googleJavaFormat>
-                            <removeUnusedImports />
+                            <removeUnusedImports/>
                         </java>
                         <scala>
                             <includes>
@@ -2221,7 +2221,7 @@
             <id>flink-1.15</id>
             <properties>
                 <flink.version>1.15.2</flink.version>
-                <flink.module.scala.suffix></flink.module.scala.suffix>
+                <flink.module.scala.suffix/>
             </properties>
         </profile>
 
