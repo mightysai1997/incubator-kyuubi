@@ -117,7 +117,7 @@
         <failsafe.verion>2.4.4</failsafe.verion>
         <fb303.version>0.9.3</fb303.version>
         <flink.version>1.15.2</flink.version>
-        <flink.module.scala.suffix></flink.module.scala.suffix>
+        <flink.module.scala.suffix/>
         <flink.archive.name>flink-${flink.version}-bin-scala_${scala.binary.version}.tgz</flink.archive.name>
         <flink.archive.mirror>${apache.archive.dist}/flink/flink-${flink.version}</flink.archive.mirror>
         <flink.archive.download.skip>false</flink.archive.download.skip>
@@ -168,7 +168,7 @@
           DO NOT forget to change the following properties when change the minor version of Spark:
           `delta.version`, `maven.plugin.scalatest.exclude.tags`
           -->
-        <spark.version>3.2.2</spark.version>
+        <spark.version>3.4.3</spark.version>
         <spark.binary.version>3.2</spark.binary.version>
         <spark.archive.name>spark-${spark.version}-bin-hadoop3.2.tgz</spark.archive.name>
         <spark.archive.mirror>${apache.archive.dist}/spark/spark-${spark.version}</spark.archive.mirror>
@@ -202,7 +202,7 @@
         <maven.plugin.surefire.version>3.0.0-M7</maven.plugin.surefire.version>
         <maven.plugin.scalatest.version>2.0.2</maven.plugin.scalatest.version>
         <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow,org.apache.kyuubi.tags.HudiTest</maven.plugin.scalatest.exclude.tags>
-        <maven.plugin.scalatest.include.tags></maven.plugin.scalatest.include.tags>
+        <maven.plugin.scalatest.include.tags/>
         <maven.plugin.spotless.version>2.24.1</maven.plugin.spotless.version>
         <maven.plugin.jacoco.version>0.8.7</maven.plugin.jacoco.version>
         <maven.plugin.jar.version>3.2.0</maven.plugin.jar.version>
@@ -1983,7 +1983,7 @@
                                 <version>1.7</version>
                                 <style>GOOGLE</style>
                             </googleJavaFormat>
-                            <removeUnusedImports />
+                            <removeUnusedImports/>
                         </java>
                         <scala>
                             <includes>
@@ -2148,7 +2148,7 @@
         <profile>
             <id>spark-3.1</id>
             <properties>
-                <spark.version>3.1.3</spark.version>
+                <spark.version>3.4.3</spark.version>
                 <spark.binary.version>3.1</spark.binary.version>
                 <delta.version>1.0.1</delta.version>
                 <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow</maven.plugin.scalatest.exclude.tags>
@@ -2162,7 +2162,7 @@
         <profile>
             <id>spark-3.2</id>
             <properties>
-                <spark.version>3.2.2</spark.version>
+                <spark.version>3.4.3</spark.version>
                 <spark.binary.version>3.2</spark.binary.version>
                 <delta.version>2.0.0</delta.version>
                 <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow,org.apache.kyuubi.tags.HudiTest</maven.plugin.scalatest.exclude.tags>
@@ -2177,7 +2177,7 @@
             <id>spark-3.3</id>
             <properties>
                 <delta.version>2.1.0</delta.version>
-                <spark.version>3.3.0</spark.version>
+                <spark.version>3.4.3</spark.version>
                 <spark.binary.version>3.3</spark.binary.version>
                 <spark.archive.name>spark-${spark.version}-bin-hadoop3.tgz</spark.archive.name>
                 <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow,org.apache.kyuubi.tags.HudiTest</maven.plugin.scalatest.exclude.tags>
@@ -2205,7 +2205,7 @@
                 </repository>
             </repositories>
             <properties>
-                <spark.version>3.4.0-SNAPSHOT</spark.version>
+                <spark.version>3.4.3</spark.version>
                 <maven.plugin.scalatest.exclude.tags>org.scalatest.tags.Slow,org.apache.kyuubi.tags.DeltaTest,org.apache.kyuubi.tags.IcebergTest,org.apache.kyuubi.tags.HudiTest</maven.plugin.scalatest.exclude.tags>
             </properties>
         </profile>
@@ -2221,7 +2221,7 @@
             <id>flink-1.15</id>
             <properties>
                 <flink.version>1.15.2</flink.version>
-                <flink.module.scala.suffix></flink.module.scala.suffix>
+                <flink.module.scala.suffix/>
             </properties>
         </profile>
 
