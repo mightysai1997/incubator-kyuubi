@@ -24,3 +24,4 @@ recommonmark==0.7.1
 sphinx-notfound-page==0.8
 # we shall bypass markdown-3.4.1, see details in KYUUBI-3126
 markdown==3.3.7
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
