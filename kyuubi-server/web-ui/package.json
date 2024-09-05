@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.9",
-    "axios": "^0.27.2",
+    "axios": "^1.6.8",
     "element-plus": "^2.2.12",
     "pinia": "^2.0.18",
     "pinia-plugin-persistedstate": "^2.1.1",
-    "vue": "^3.2.37",
+    "vue": "^3.3.5",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.3"
   },
